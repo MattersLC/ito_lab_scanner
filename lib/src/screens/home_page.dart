@@ -56,6 +56,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'ITO SCANNER',
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
           title: Image.asset('assets/images/tecnm_logo.jpg', fit: BoxFit.cover),
@@ -203,6 +204,9 @@ class _HomePageState extends State<HomePage> {
                     ),
                   ],
                 ),
+                const SizedBox(
+                  height: 35,
+                )
               ],
             ),
           ),

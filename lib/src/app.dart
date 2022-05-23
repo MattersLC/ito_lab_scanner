@@ -11,6 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'ITO SCANNER',
+      debugShowCheckedModeBanner: false,
       initialRoute: '/',
       theme: ThemeData(
           brightness: Brightness.light,
